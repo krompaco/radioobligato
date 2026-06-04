@@ -178,7 +178,13 @@ img.left {
 }
 
 img.full {
-	margin: 0.2em 0;
+	margin: 14px 0 !important;
+}
+
+p.intro {
+	margin: 20px 0 !important;
+	font-size: 14px;
+	font-weight: 600;
 }
 
 /* Index */
@@ -551,6 +557,11 @@ img.full {
 
 	img {
 		max-width:100%;
+	}
+
+	#events img {
+		width: 100%;
+		height: auto;
 	}
 }
 
